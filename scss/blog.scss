@@ -1,0 +1,67 @@
+.blog{
+    height: calc(100% - 98px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+    .left2{
+        width: 50%;
+        height: 100%;
+        background-color: #707070;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+
+        .box{
+            // width: 530px;
+            flex-direction: column;
+            margin: 0 auto;
+            
+            .pic1{
+                width: 400px;
+                height: 250px;
+                background-image: url(../images/pexels-max-vakhtbovych-6301168.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover; 
+                margin-bottom: 30px;
+                border: solid #471F00;
+
+            }
+            .pic2{
+                width: 400px;
+                height: 250px;
+                background-image: url(../images/steven-ungermann-Aac7IlKnYX8-unsplash.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover; 
+                border: solid #471F00;
+            }
+        }
+    }
+    .right2{
+        width: 50%;
+        height: 100%;
+        background-color: white;
+
+        .word-holder{
+            width: 100%;
+            padding: 20px;
+            margin-top: 30px;
+
+            h1{
+                font-size: 32px;
+                font-family: arial;
+
+            }
+            p{
+                font-size: 16px;
+                font-family: arial;
+
+            }
+            
+        }
+    }
+}
